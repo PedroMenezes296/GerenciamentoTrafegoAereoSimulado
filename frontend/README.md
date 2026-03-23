@@ -1,0 +1,1 @@
+Pasta destinada à interface do sistema.

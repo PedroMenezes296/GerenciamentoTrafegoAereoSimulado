@@ -1,0 +1,1 @@
+Pasta destinada à documentação, diagramas e artefatos de engenharia de software.
