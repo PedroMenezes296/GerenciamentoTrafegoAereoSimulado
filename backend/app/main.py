@@ -1,4 +1,9 @@
 from fastapi import FastAPI
+from app.database.base import Base
+from app.database.connection import engine
+from app.models import Aeroporto
+
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Sistema de Gerenciamento de Tráfego Aéreo Simulado",
